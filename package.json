@@ -1,7 +1,7 @@
 {
-  "name": "@cubbles/vanilla-boilerplate",
-  "version": "0.1.12",
-  "description": "A template for a cubbles webpackage.",
+  "name": "leaflet-1-0-3",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "A wrapper for the leaflet@1.0.3 utility.",
   "private": true,
   "main": "\"\"",
   "scripts": {
@@ -35,10 +35,10 @@
   "contributors": [
     "Edwin Gamboa <edwingamboa355@gmail.com>"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@cubbles/webpackage-document-api": "^0.2.1",
-    "@cubbles/webpackage-uploader": "^0.1.8",
+    "@cubbles/webpackage-document-api": "^0.2.2",
+    "@cubbles/webpackage-uploader": "^0.1.9",
     "@cubbles/wpkg-utils": "^0.2.1",
     "autoprefixer": "^9.3.1",
     "babel-core": "^6.26.3",
@@ -75,7 +75,7 @@
     "url": "git+https://github.com/cubbles/coder-toolset.git"
   },
   "keywords": [
-    "vanila boilerplate",
+    "Leaflet",
     "Cubbles"
   ],
   "bugs": {
@@ -93,11 +93,11 @@
       "cubx-webpackage-uploader": {
         "dev": {
           "target": {
-            "url": "http://cubbles.world/sandbox",
+            "url": "http://cubbles-base-local/core",
             "proxy": ""
           },
           "debug": false,
-          "dryRun": true
+          "dryRun": false
         },
         "prod": {
           "target": {
